@@ -12,7 +12,7 @@
             font-family: 'Arial';
             color: white;
         }
-        .playlist {
+        .container {
             width: 100%;
             padding: 10px;
         }
@@ -25,9 +25,12 @@
         .box {
             width: 80px;
             height: 80px;
-            background-image: url(logo.jpg);
+            background-image: url(logo.png);
             background-size: cover;
             margin-right: 20px;
+        }
+        .content{
+            color: white;
         }
         .title {
             font-size: 20px;
@@ -44,81 +47,92 @@
             padding: 10%;
             color: white;
         }
+        .footer{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
         <div></div>
-        <img src="logo.jpg" alt="no image" height="50px">
+        <img src="logo.png" alt="no image" height="50px">
         Home
         <button>Playlists</button>
         <button>Artist</button>
     </header>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="">
-                <p class="title">Aval Varuval</p>
-                <p class="artist">Ar rahman</p>
+    <section>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Aval Varuval</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Inru netru</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Inru netru</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Innu Konja Neram</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Innu Konja Neram</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Hey Sinamika</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Hey Sinamika</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Poo Pol</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Poo Pol</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Aval Varuval</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Aval Varuval</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="playlist">
-        <div class="song">
-            <div class="box"></div>
-            <div class="content">
-                <p class="title">Aval Varuval</p>
-                <p class="artist">Ar rahman</p>
+        <div class="container">
+            <div class="song">
+                <div class="box"></div>
+                <div class="content">
+                    <p class="title">Aval Varuval</p>
+                    <p class="artist">Ar rahman</p>
+                </div>
             </div>
         </div>
+    </section>
+    <div class="footer">
+        <img src="home.png" alt="Home" width="30" height="30">
+        <img src="search.png" alt="Search" width="30" height="30">
+        <img src="library.png" alt="Library" width="30" height="30">
+        <img src="about.png" alt="About" width="30" height="30">
     </div>
-    <footer>
-
-    </footer>
 </body>
 </html>
