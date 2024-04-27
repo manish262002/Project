@@ -4,61 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Song Playlist</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            font-family: 'Arial';
-            color: white;
-        }
-        .container {
-            width: 100%;
-            padding: 10px;
-        }
-        .song {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            margin-left: 10px;
-        }
-        .box {
-            width: 80px;
-            height: 80px;
-            background-image: url(logo.png);
-            background-size: cover;
-            margin-right: 20px;
-        }
-        .content{
-            color: white;
-        }
-        .title {
-            font-size: 20px;
-            color: white;
-            margin: 0;
-        }
-        .artist {
-            font-size: 16px;
-            color: white;
-            margin: 0;
-        }
-        header{
-            background-color: green;
-            padding: 10%;
-            color: white;
-        }
-        .footer{
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div></div>
-        <img src="logo.png" alt="no image" height="50px">
+        <img src="./image/logo.jpg" alt="no image" height="50px">
         Home
         <button>Playlists</button>
         <button>Artist</button>
@@ -66,61 +17,74 @@
     <section>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box1"></div>
                 <div class="content">
-                    <p class="title">Aval Varuval</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Avalukena</p>
+                    <marquee behavior="" direction=""><p class="artist">Anirudh Ravichandran, Ravi G</p></marquee>
+                    
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box2"></div>
                 <div class="content">
-                    <p class="title">Inru netru</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Kadhal Asai</p>
+                    <marquee behavior="" direction=""><p class="artist">Yuvan shankar Raja,Sooraj Santhosh</p></marquee>
+                    
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box3"></div>
                 <div class="content">
-                    <p class="title">Innu Konja Neram</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Marakkavillayae</p>
+                    <marquee behavior="" direction=""><p class="artist">Anirudh Ravichandran</p></marquee>
+                    
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box4"></div>
                 <div class="content">
-                    <p class="title">Hey Sinamika</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Naan Pizhai</p>
+                    <marquee behavior="" direction=""><p class="artist">Anirudh Ravichandran,Ravi G,Shashaa Tirupati</p></marquee>
+                    
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box5"></div>
                 <div class="content">
-                    <p class="title">Poo Pol</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Pookkal Pookkum</p>
+                    <marquee behavior="" direction=""><p class="artist">G. v. Prakash,Roop Kumar/p></marquee>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box6"></div>
                 <div class="content">
-                    <p class="title">Aval Varuval</p>
-                    <p class="artist">Ar rahman</p>
+                    <p class="title">Thee illai</p>
+                    <marquee behavior="" direction=""><p class="artist">Harris Jayaraj,Naresh Iyer</p></marquee>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="song">
-                <div class="box"></div>
+                <div class="box7"></div>
+                <div class="content">
+                    <p class="title">Venmegam</p>
+                    <p class="artist">Yuvan shankar Raja,Sooraj Santhosh</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="song">
+                <div class="box8"></div>
                 <div class="content">
                     <p class="title">Aval Varuval</p>
                     <p class="artist">Ar rahman</p>
@@ -129,10 +93,22 @@
         </div>
     </section>
     <div class="footer">
-        <img src="home.png" alt="Home" width="30" height="30">
-        <img src="search.png" alt="Search" width="30" height="30">
-        <img src="library.png" alt="Library" width="30" height="30">
-        <img src="about.png" alt="About" width="30" height="30">
-    </div>
+    <a href="#" class="icon">
+        <img src="./image/home-icon.png" alt="Home Icon"><br>
+        Home
+    </a>
+    <a href="#" class="icon">
+        <img src="./image/search-icon.png" alt="Search Icon"><br>
+        Search
+    </a>
+    <a href="#" class="icon">
+        <img src="./image/library-icon.png" alt="Library Icon"><br>
+        Library
+    </a>
+    <a href="#" class="icon">
+        <img src="./image/about-icon.png" alt="About Icon"><br>
+        About
+    </a>
+</div>
 </body>
 </html>
